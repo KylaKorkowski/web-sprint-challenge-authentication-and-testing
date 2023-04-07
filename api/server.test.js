@@ -1,7 +1,7 @@
 // Write your tests here
-test('sanity', () => {
-  expect(false).toBe(false)
-})
+// test('sanity', () => {
+//   expect(false).toBe(false)
+// })
 const User = require('./users/users-model');
 const db = require('../data/dbConfig');
 
@@ -19,6 +19,7 @@ describe('sanity', () => {
     expect(true).toBe(true);
   })
 })
+
 describe('[POST]/api/auth/register endpoint', () => {
   const newUser = {
     username: 'jamison',
